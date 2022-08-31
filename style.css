@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Jost&family=Maven+Pro:wght@500&family=Paytone+One&family=Poppins:wght@200&family=Russo+One&display=swap');
+
+body{
+    background: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 18vw;
+    align-items: center;
+    margin: 50px;
+}
+body::before{
+    content: '';
+    background: url(img/bg.png);
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: 100%;
+    z-index: -1;
+}
+#logo{
+    width: 150px;
+}
+#menuContainer{
+display: flex;
+justify-content: center;
+gap: 100px;
+align-items: center;
+}
+#menuContainer li{
+    list-style: none;
+    color: #ffc233 ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#btn1{
+    height: 40px;
+    width: 120px;
+    background: #ff505f;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-weight: 800;
+}
+section{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    color: #ffc233;
+    text-align: center;
+    font-size: 6rem;
+}
+#btn2{
+    color: white;
+    background: #ff505f;
+    height: fit-content;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 20px 60px 20px 60px;
+    font-size: 2rem;
+    font-weight: 800;
+    width: fit-content;
+    border: none;
+    font-family: 'Jost', sans-serif;
+}
+#scroll{
+    float: right;
+    margin-right: 200px;
+}
